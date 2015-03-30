@@ -1,2 +1,2 @@
-# CommonCSTutoringTopics
-Frequently asked questions and topics in my tutoring experiences.
+# CS Tutoring FAQ
+A collection of common topics and questions I have come across while tutoring.
