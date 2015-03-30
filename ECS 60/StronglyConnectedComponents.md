@@ -6,7 +6,7 @@ I will try to demonstrate that two cycles that contain a common subset of vertic
 
 Here is a graph:
 
-![Example graph](images\SCCgraph.png)
+![Example graph](./images/SCCgraph.png)
 
 Notice two cycles: `CBAFG` and `CBAFKLH`. However, the strongly connected component should contain `A`, `B`, `C`, `F`, `G`, `H`, `K`, and `L`. There is a path between each pair of vertices in that set. For example, to get from `G` to `L`, you can travel around the smaller cycle to `F`, then follow the direct edges from `F` to `K` and from `K` to `L`.
 
@@ -30,7 +30,7 @@ I started the DFS at vertex `O`. This is the order that I came up with for the f
 
 Now here is the transpose of the graph:
 
-![Transpose of example graph](images\SCCtransposegraph.png)
+![Transpose of example graph](./images/SCCtransposegraph.png)
 
 The first strongly connected components found are `O` and `JDIN`. Nothing fancy. Now we start the DFS at vertex `C`, since it has the highest numbering of the vertices remaining. This DFS visits vertices, in this order (using Sean's rule of visiting alphabetically labled vertices first if there is a choice), `C`, `G`, `F`, `A`, `B`, `H`, `L`, and `K`. You can see that there is no single cycle that contains all these vertices, yet they are still in the same strongly connected component.
 
