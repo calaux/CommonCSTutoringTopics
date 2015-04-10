@@ -49,3 +49,7 @@ There are a couple of methods to exit `gprolog`:
 		[calaux@pc24 HW6]$
 
 - Press `CTRL-D` (EOF) on your keyboard.
+
+## Bonus: Prolog Syntax Highlighting for Vim Users ##
+
+I've seen a lot of people using Vim to write their Prolog code, so [here's](https://github.com/adimit/prolog.vim) a nice plugin for Prolog syntax highlighting.
